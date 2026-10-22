@@ -2,89 +2,11 @@
 <html lang="kk">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ватсап рассылка</title>
-  <meta name="description" content="WhatsApp Web-те бір батырмамен көп адамға хабарлама жіберу — кеңейтусіз.">
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="site.css">
+  <meta http-equiv="refresh" content="0; url=https://wa-rassylka.github.io/">
+  <link rel="canonical" href="https://wa-rassylka.github.io/">
 </head>
-<body>
-  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
-
-  <main class="landing">
-    <section class="hero">
-      <div class="hero-logo">
-        <svg class="wa-logo" viewBox="0 0 24 24" aria-hidden="true"><path class="wa-bubble" d="M7.9 20.6A9.2 9.2 0 1 0 3.5 16.3L2.3 21.7Z"/><path class="wa-phone" transform="translate(7.1 7.1) scale(.41)" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-      </div>
-      <h1>Ватсап <em>рассылка</em></h1>
-      <p>WhatsApp-тағы тізімге, өз тізіміңізге немесе JUZ40-та тапсырма тапсырмағандардың ата-анасына — бір батырмамен. Ештеңе орнатудың қажеті жоқ.</p>
-    </section>
-
-    <section class="card install">
-      <h2>Батырманы бетбелгілерге сүйреңіз</h2>
-      <p class="hint">Бетбелгілер жолағы көрінбесе: <span class="kbd">⌘ Cmd</span> + <span class="kbd">Shift</span> + <span class="kbd">B</span> (Mac) немесе <span class="kbd">Ctrl</span> + <span class="kbd">Shift</span> + <span class="kbd">B</span> (Windows) басыңыз.</p>
-      <div class="bm-zone">
-        <div class="drag-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>жоғарыдағы бетбелгілер жолағына сүйреп апарыңыз</div>
-        <a id="bookmarklet" class="bookmarklet loading" href="#" title="Сүйреп бетбелгілерге апарыңыз">📨 Рассылка</a>
-      </div>
-      <div class="alt-copy">Сүйреу болмаса: жаңа бетбелгі жасап, мекенжайына осы кодты қойыңыз<button id="copyCode" class="ghost sm" type="button">Кодты көшіру</button></div>
-    </section>
-
-    <section class="steps">
-      <div class="card"><span class="num">1</span><h3>Сүйреп тастаңыз</h3><p>«📨 Рассылка» батырмасын бетбелгілер жолағына бір рет апарасыз. Бұл — орнату емес, жай бетбелгі.</p></div>
-      <div class="card"><span class="num">2</span><h3>WhatsApp Web ашыңыз</h3><p><a href="https://web.whatsapp.com/" target="_blank" rel="noopener">web.whatsapp.com</a> сайтына QR-кодпен кіріңіз (WhatsApp Business та болады).</p></div>
-      <div class="card"><span class="num">3</span><h3>Бетбелгіні басыңыз</h3><p>Оң жақта панель ашылады: адамдарды таңдап, мәтін жазып, «Жіберу» — қалғанын өзі істейді.</p></div>
-    </section>
-
-    <div class="section-title">Үш режим</div>
-    <section class="features">
-      <div class="card feature">
-        <div class="f-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></div>
-        <h3>WhatsApp тізімі</h3>
-        <p>WhatsApp Business-тегі «2027», «Ата ана 2027» сияқты тізімдер. Ішіндегі адамдарды көрсетеді, кімге жіберетініңізді белгілейсіз.</p>
-      </div>
-      <div class="card feature">
-        <div class="f-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 1 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
-        <h3>Өз тізімім</h3>
-        <p>Нөмірлерді немесе контакт аттарын қоясыз (Google Sheets-тен көшіруге болады). <code>{есімі}</code> сияқты айнымалылар бар.</p>
-      </div>
-      <div class="card feature">
-        <div class="f-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
-        <h3>JUZ40</h3>
-        <p>Тапсырмаларды таңдайсыз — тапсырмаған оқушылар мен ата-аналарына дайын хабарлама панельге түседі. <a href="juz40.html">JUZ40 беті →</a></p>
-      </div>
-    </section>
-
-    <div class="card foot">
-      <b>Ескерту:</b> WhatsApp жаппай хабарламаны бұғаттауы мүмкін. Сізді сақтамаған нөмірлерге көп жібермеңіз, панельдегі «Қауіпсіз» режимін қолданыңыз. Тек компьютердегі Chrome, Edge, Яндекс браузерде жұмыс істейді.
-    </div>
-  </main>
-
-  <script>
-    (async () => {
-      const a = document.getElementById('bookmarklet');
-      const base = new URL('./', location.href).href;
-      let code = '';
-      try {
-        code = (await (await fetch('panel.js', { cache: 'no-cache' })).text()).replace('__SITE__', base);
-        a.href = 'javascript:' + encodeURIComponent(code);
-        a.classList.remove('loading');
-      } catch (e) {
-        a.textContent = 'Жүктелмеді — бетті жаңартыңыз';
-      }
-      a.addEventListener('click', (e) => {
-        e.preventDefault();
-        alert('Бұл батырманы баспаңыз — оны жоғарыдағы бетбелгілер жолағына сүйреп апарыңыз. Содан кейін web.whatsapp.com бетінде сол бетбелгіні басасыз.');
-      });
-      document.getElementById('copyCode').onclick = async () => {
-        try {
-          await navigator.clipboard.writeText(a.href);
-          document.getElementById('copyCode').textContent = 'Көшірілді ✓';
-        } catch (e) {
-          prompt('Көшіріңіз:', a.href);
-        }
-      };
-    })();
-  </script>
+<body style="background:#070d0b;color:#e9f1ee;font:16px -apple-system,sans-serif;display:grid;place-items:center;height:100vh;margin:0">
+  <p>Сайт жаңа мекенжайға көшті: <a style="color:#3ee08f" href="https://wa-rassylka.github.io/">wa-rassylka.github.io</a></p>
 </body>
 </html>
