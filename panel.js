@@ -541,8 +541,8 @@ details[open] summary { margin-bottom: 10px; }
       <details class="card">
         <summary>${ic('gear')}Баптаулар</summary>
         <div class="presets">
-          <button class="preset" id="turbo"><b>⚡ Жылдам</b><span>кідіріссіз</span></button>
-          <button class="preset" id="safe"><b>🛡 Қауіпсіз</b><span>5–12 сек</span></button>
+          <button class="preset" id="turbo"><b>Жылдам</b><span>кідіріссіз</span></button>
+          <button class="preset" id="safe"><b>Қауіпсіз</b><span>5–12 сек</span></button>
         </div>
         <div class="settings">
           <label>Кідіріс min, сек<input id="delayMin" type="number" min="0" step="0.5"></label>
@@ -980,13 +980,13 @@ details[open] summary { margin-bottom: 10px; }
     Object.assign(settings, { delayMin: 0, delayMax: 0, batchSize: 0, batchPause: 0 });
     store.set('settings', settings);
     fillSettings();
-    toast('⚡ Жылдам режим қосылды');
+    toast('Жылдам режим қосылды');
   };
   $('safe').onclick = () => {
     Object.assign(settings, { delayMin: 5, delayMax: 12, batchSize: 30, batchPause: 60 });
     store.set('settings', settings);
     fillSettings();
-    toast('🛡 Қауіпсіз режим қосылды');
+    toast('Қауіпсіз режим қосылды');
   };
   $('minimize').onclick = hidePanel;
   $('fab').onclick = showPanel;
